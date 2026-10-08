@@ -1,8 +1,11 @@
 # Aula 10 — JavaScript: DOM e Eventos
 
 **Módulo:** Fundamentos de Arquitetura Web, Protocolo HTTP, Conceitos de API REST, HTML, CSS e JavaScript  
+
 **Carga horária:** 4 horas (240 minutos)  
+
 **Professora:** @karizeviecelli  
+
 **Público:** alunos iniciantes que já tiveram contato com HTML, CSS, variáveis, funções e condições em JavaScript.
 
 ## 1. Ponto de partida: como uma página responde ao usuário?
@@ -66,7 +69,7 @@ A prática ocupa 90 minutos, somando construção e testes. As extensões ao fin
 
 ---
 
-## 2. [BÁSICO] O que é o DOM?
+## 2.  O que é o DOM?
 
 **DOM** significa *Document Object Model*, ou Modelo de Objetos do Documento. É uma estrutura em árvore que representa o documento carregado no navegador.
 
@@ -97,7 +100,7 @@ console.log(document.body);
 
 **Verificação:** se você alterar um título pelo JavaScript, o texto original do arquivo HTML necessariamente será substituído no editor? Explique.
 
-## 3. [BÁSICO] Preparando um laboratório pequeno
+## 3.  Preparando um laboratório pequeno
 
 Antes do formulário completo, crie três arquivos na mesma pasta: `laboratorio.html`, `laboratorio.css` e `laboratorio.js`.
 
@@ -217,7 +220,7 @@ Abra `laboratorio.html` no navegador e consulte o Console nas ferramentas de des
 
 ---
 
-## 4. [BÁSICO] Selecionar: localizar o elemento certo
+## 4. Selecionar: localizar o elemento certo
 
 Selecionar é obter uma referência para um elemento. Essa referência permite consultar ou modificar o elemento depois.
 
@@ -317,7 +320,7 @@ if (aviso === null) {
 
 ---
 
-## 5. [BÁSICO] Ler e alterar conteúdo
+## 5.  Ler e alterar conteúdo
 
 ### 5.1. `textContent`, `innerHTML` e `value`
 
@@ -375,7 +378,7 @@ console.log("Nome lido no carregamento:", nomeInicial);
 
 ---
 
-## 6. [INTERMEDIÁRIO] Reagir a um clique
+## 6.  Reagir a um clique
 
 Um **evento** informa que algo aconteceu. Um **ouvinte de evento** é uma função registrada para reagir a essa ocorrência.
 
@@ -434,7 +437,7 @@ Escrever `mostrarSaudacao()` nessa posição chamaria a função imediatamente e
 
 **Verificação:** por que a leitura de `campoVisitante.value` foi colocada dentro da função do evento?
 
-## 7. [INTERMEDIÁRIO] Classes, estilos e eventos de edição
+## 7. Classes, estilos e eventos de edição
 
 ### 7.1. `classList`: controlar a aparência com classes
 
@@ -530,7 +533,7 @@ Em `select` e checkbox, `change` tem outro momento de confirmação, como seleci
 
 ---
 
-## 8. [INTERMEDIÁRIO] Formulários, evento e `preventDefault()`
+## 8.  Formulários, evento e `preventDefault()`
 
 Um formulário reúne campos relacionados e oferece uma ação de envio. Por padrão, o envio pode navegar para o endereço indicado por `action`, levando os dados conforme o método configurado. Dependendo da configuração, isso pode carregar novamente a página atual ou abrir outra resposta.
 
@@ -593,7 +596,7 @@ O navegador entrega o objeto do evento à função. O parâmetro poderia se cham
 
 ---
 
-## 9. [APLICAÇÃO] Planejar o formulário antes de programar
+## 9.  Planejar o formulário antes de programar
 
 **Contexto:** a escola quer um protótipo de inscrição em uma oficina. O aluno deverá preencher nome, e-mail e uma senha de demonstração.
 
@@ -637,7 +640,7 @@ A validação no navegador ajuda a orientar o usuário. Um sistema real também 
 
 ---
 
-## 10. [APLICAÇÃO] Atividade prática — Checkpoint 3
+## 10.  Atividade prática — Checkpoint 3
 
 **Formato:** individual, com revisão em dupla. **Tempo:** 90 minutos para construção e testes.
 
@@ -1118,7 +1121,7 @@ Responda antes de consultar a seção seguinte:
 
 ---
 
-## 17. [AVANÇADO — OPCIONAL] Desafios de extensão
+## 17.  Desafios de extensão
 
 ### Desafio A — Confirmação de senha
 
